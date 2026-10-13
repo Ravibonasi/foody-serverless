@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_APIKEY,
+  apiKey: "AIzaSyC_KMGd70b4xPMY70XDd0ZhHd-Ae9EVhLI",
   authDomain: "foody-serverless.firebaseapp.com",
   projectId: "foody-serverless",
   storageBucket: "foody-serverless.firebasestorage.app",
