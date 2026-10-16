@@ -462,10 +462,10 @@ const SuperAdminDashboard = () => {
                             <h2 className="text-2xl font-bold text-gray-900 mb-6">Dashboard Overview</h2>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
                                 {[
-                                    { label: 'Total Users', value: dashboardStats.userCount, color: 'text-blue-600', bg: 'bg-blue-50' },
-                                    { label: 'Total Owners', value: dashboardStats.ownerCount, color: 'text-green-600', bg: 'bg-green-50' },
-                                    { label: 'Delivery Boys', value: dashboardStats.deliveryBoyCount, color: 'text-purple-600', bg: 'bg-purple-50' },
-                                    { label: 'Pending Owners', value: dashboardStats.pendingOwnerCount, color: 'text-orange-600', bg: 'bg-orange-50' },
+                                    { label: 'Total Users', value: 0, color: 'text-blue-600', bg: 'bg-blue-50' },
+                                    { label: 'Total Owners', value: 0, color: 'text-green-600', bg: 'bg-green-50' },
+                                    { label: 'Delivery Boys', value: 0, color: 'text-purple-600', bg: 'bg-purple-50' },
+                                    { label: 'Pending Owners', value: 0, color: 'text-orange-600', bg: 'bg-orange-50' },
                                     { label: 'Categories', value: dashboardStats.categoryCount, color: 'text-indigo-600', bg: 'bg-indigo-50' }
                                 ].map((stat, index) => (
                                     <div key={index} className={`${stat.bg} backdrop-blur-xl border border-white/40 p-6 rounded-3xl shadow-xl hover:scale-105 transition-all duration-300`}>
